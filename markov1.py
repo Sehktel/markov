@@ -1,3 +1,13 @@
+#-------------------------------------------------------------------------------
+# Name:        Markov chain generator
+# Purpose:
+#
+# Author:      Andrey Sukhov <suhov.aa@hotmail.com>
+#
+# Created:     27.09.2023
+# Copyright:   (c) Sehktel 2023
+# Licence:     MIT Licence
+#-------------------------------------------------------------------------------
 import os
 import json
 import codecs
