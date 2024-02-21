@@ -15,7 +15,8 @@ import json
 alphabet = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
 
 # Create a dictionary to store the symbol counts
-symbol_counts = {symbol: {next_symbol: 0 for next_symbol in alphabet} for symbol in alphabet}
+symbol_counts = {symbol: {next_symbol: 0 for next_symbol in alphabet}
+                    for symbol in alphabet}
 
 # Loop through all txt files in the directory
 for filename in os.listdir():
